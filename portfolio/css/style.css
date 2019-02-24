@@ -97,6 +97,7 @@ header{
 .content-img img{
 	width: 100%;
 }
+
 .content:hover{
 	opacity: 0;
 }
