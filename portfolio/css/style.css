@@ -42,7 +42,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	src: url(../fonts/Roboto-Regular.ttf);
 }
 body{
-	background-image: linear-gradient(to right, #f1c40f, #e74d3c);
+	background-image: linear-gradient(to right, #f9ca24, #e74d3c);
 }
 li {
 	list-style: none;
