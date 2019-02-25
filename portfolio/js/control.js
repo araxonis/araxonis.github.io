@@ -22,8 +22,12 @@ $('#tel-modal-close').click(function(){
 	$('#tel').css("display", "flex");
 })
 
-$('.more-btn').click(function(event){
+$('#more-btn-design').click(function(event){
 	event.preventDefault();
-	$('.content-block').append('<div class="content-img"><img src="img/2.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div><div class="content-img"><a href="https://www.youtube.com/"><img src="img/1.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div></a><div class="content-img"><img src="img/2.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div>');
+	$('#content-block-design').append('<div class="content-img"><img src="img/2.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div><div class="content-img"><a href="https://www.youtube.com/"><img src="img/1.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div></a><div class="content-img"><img src="img/2.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div>');
 })
 
+$('#more-btn-layout').click(function(event){
+	event.preventDefault();
+	$('#last-block').append('<div class="content-img"><img src="img/2.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div><div class="content-img"><a href="https://www.youtube.com/"><img src="img/1.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div></a><div class="content-img"><img src="img/2.jpg" alt="img"><div class="content"><p><strong>Gribabas.com</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p></div></div>');
+})
