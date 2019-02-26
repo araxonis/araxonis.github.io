@@ -62,12 +62,12 @@ header{
 	text-align: center;
 	font-family: 'Montserrat-Bold';
 	color: #fff;
-	font-size: 3.12vw;
+	font-size: 3.12vmax;
 }
 .main h1{
 	font-family: 'Montserrat-Regular';
 	color: #fff;
-	font-size: 1.88vw;
+	font-size: 1.88vmax;
 	font-weight: 200;
 	margin-bottom: 2.96vw;
 	margin-top: 2.96vw;
@@ -97,7 +97,6 @@ header{
 .content-img img{
 	width: 100%;
 }
-
 .content:hover{
 	opacity: 0;
 }
@@ -235,5 +234,120 @@ header{
 @media only screen and (max-width: 320px),
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 {
+	header{
+		font-size: 10vw;
+	}
+	.wrap{
+		width: 96%;
+	}
+	.main h1{
+		font-size: 7vw;
+		text-align: center;
+		margin-bottom: 14.96vw;
+	    margin-top: 16.96vw;
+	}
+	.content-block{
+		width: 100%;
+	}
+	.content-img{
+		width: 100%;
+		height: auto;
+	}
+	.content{
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+	.content p{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		font-size: 3.5vw;
+		line-height: 5vw;
+		padding: 2vw;
+	}
+	.content p strong{
+		font-size: 4vw;
+	}
+	.content-img{
+		margin-bottom: 5vw;
+	}
+	.content-img:hover{
+	transform: none;
+	}
+	.content:hover{
+	opacity: 100;
+	}
+	.more-btn{
+		bottom: -8.02vw;
+	    right: 2.5vw;
+	    width: 23.85vw;
+	    height: 8.02vw;
+	    font-size: 5vw;
+	}
+	.more-btn:hover{
+		font-size: 1.88vmax;
+	}
 	
+	.contact{
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		margin-top: 6vw;
+		right: 0;
+		top: 0;
+	}
+	.contact-btn{
+		width: 11.64vw;
+    	height: 11.64vw;
+	}
+	.contact-btn svg{
+		width: 9vw;
+    	height: 9vw;
+	}
+	.contact-btn:hover{
+	transform: none;
+	}
+	#vk:hover{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	background-color: #4375a3;
+	}
+	#vk{
+		background-color: #e96134;
+	}
+	#vk svg{
+		fill: #e8c535;
+	}
+	#vk svg:hover{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	fill: #fff;
+	}
+	#tel-modal-content{
+		height: auto;
+		margin-bottom: 3vmax;
+	}
+	#tel-modal-close{
+		position: relative;	
+		top: 0;
+		right: 0;
+	}
+	#tel-modal{
+		display: none;
+		flex-flow: column;
+		justify-content: center;
+		align-items:center;
+	}
+	#tel-modal{
+		font-size: 3vmax;
+		line-height: 5vmax;
+
+	}
+	#tel-modal h2{
+		font-size: 5vmax;
+	}
 }
