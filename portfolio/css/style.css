@@ -350,4 +350,7 @@ header{
 	#tel-modal h2{
 		font-size: 5vmax;
 	}
+	#last-block{
+		margin-bottom: 13vw;
+	}
 }
