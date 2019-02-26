@@ -1,21 +1,32 @@
 var $upbtn = $("#up-btn")
-$(window).on("scroll", function(){
-	if ($(window).scrollTop() >= 20){
-		$upbtn.fadeIn();
-		$upbtn.css("display", "flex");
-	}else{
-		$upbtn.fadeOut();
-	}
-})
-
+if (screen.width > 767){
+	$(window).on("scroll", function(){
+		if ($(window).scrollTop() >= 20){
+			$upbtn.fadeIn();
+			$upbtn.css("display", "flex");
+		}else{
+			$upbtn.fadeOut();
+		}
+	})
+}
 $upbtn.on("click", function(){
 	$("html,body").animate({scrollTop:0}, 900)
 })
 
-$('#tel').click(function(){
-	$('#tel-modal').fadeIn();
-	$('#tel').css("display", "none");
-})
+if (screen.width > 767){
+	$('#tel').click(function(){
+		$('#tel-modal').fadeIn();
+		$('#tel-modal').css("display", "flex");
+		$('#tel').css("display", "none");
+	});
+} else {
+	$('#tel').click(function(){
+		$('#tel-modal').fadeIn();
+		$('#tel-modal').css("display", "flex");
+		$('#tel').css("display", "flex");
+	});
+}
+
 
 $('#tel-modal-close').click(function(){
 	$('#tel-modal').fadeOut();
